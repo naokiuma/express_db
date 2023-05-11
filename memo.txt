@@ -1,0 +1,20 @@
+expressでcrudテスト
+https://reffect.co.jp/node-js/express-js-connect-mysql#MySQL-3
+
+
+・ターミナルで  mysql -u root でmysql
+quitで中止
+
+・npx nodemon app.js nodemon(監視モードで開始)
+
+事例1：
+nodemonをインストール後、起動するとクラッシュエラー！
+Error: listen EADDRINUSE: address already in use :::3000
+→単純にnode app.jsを止めればよかった
+
+事例2：
+expressからmysqlに接続するとエラーになるので、ドライバ(mysql)をインストールし、expressから接続するとエラー
+Client does not support authentication protocol requested by server; consider upgrading MySQL client
+このページ序盤に記載のあるエラー。
+https://reffect.co.jp/node-js/express-js-connect-mysql#expressjsMySQL
+
