@@ -1,6 +1,14 @@
 expressでcrudテスト
 https://reffect.co.jp/node-js/express-js-connect-mysql#MySQL-3
 
+・nodeの起動
+node app.js
+で、
+localhost:3000
+
+・npx nodeman app.js
+で、
+自動でいける！(npxにしないとダメなので注意！)
 
 ・ターミナルで  mysql -u root でmysql
 quitで中止
